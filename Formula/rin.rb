@@ -1,27 +1,27 @@
 class Rin < Formula
   desc "Deploy and manage your team of AI agents"
   homepage "https://github.com/w3lt/rin"
-  version "0.1.2"
+  version "0.2.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     depends_on arch: :arm64
 
     on_arm do
-      url "https://github.com/w3lt/rin/releases/download/v0.1.2/rin-aarch64-apple-darwin.tar.gz"
-      sha256 "9216e8c590502daf9e9c6c2899bd67f8cc6893c8ce86c495c8d9661e2ce16ba8"
+      url "https://github.com/w3lt/rin/releases/download/v0.2.0/rin-aarch64-apple-darwin.tar.gz"
+      sha256 "78603682d01f28a8a8c1e86dbb02a37daf53e64f36773186df792bb08c545870"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/w3lt/rin/releases/download/v0.1.2/rin-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "b37fce49b727b8eb36ad6a57d9a04536cbc22121c8cdbb496fc4dee620f01142"
+      url "https://github.com/w3lt/rin/releases/download/v0.2.0/rin-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "8f47021798349e9dc3c949b4c794da3fd1d3c06bda4e0cbe12054e1547773bef"
     end
 
     on_arm do
-      url "https://github.com/w3lt/rin/releases/download/v0.1.2/rin-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "19f75bff0473da19821e4dea131b4a388f53041eb4de90ed9ec44360967e125d"
+      url "https://github.com/w3lt/rin/releases/download/v0.2.0/rin-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "419f72b2d905ceee0c87dde341122314d8bc5b8a1c500a6d4352d6b9b6f15e75"
     end
   end
 
